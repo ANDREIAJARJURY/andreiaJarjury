@@ -1,24 +1,20 @@
-## 📌 Descripción del Proyecto
-NEXUS v1.1 es una aplicación interactiva desarrollada en C# orientada a objetos (POO). El sistema simula la exploración espacial, cartografía orbital 2D y misiones de rescate, implementando encapsulamiento, constructores, interacción entre objetos y consultas de filtrado mediante LINQ.
+# NEXUS - Simulador de Exploración Espacial (Fase de Planificación)
 
-## 🛠️ Tecnologías Utilizadas
-* **Lenguaje:** C# (.NET Core / Visual Studio Community)
-* **Paradigma:** Programación Orientada a Objetos (POO)
-* **Control de Versiones:** Git / GitHub Desktop
+NEXUS es un videojuego RPG de exploración espacial. Actualmente funciona como una aplicación de consola en C# (desarrollada en la fase H3) aplicando Programación Orientada a Objetos (POO). Este repositorio contiene la planificación y estandarización para evolucionar el proyecto hacia una interfaz gráfica con **Windows Forms** y persistencia de datos en **SQL Server**.
 
-## ⚙️ Cómo Ejecutar el Proyecto
+## Tecnologías
+* **Fase Actual (H3):** C# .NET 6.0 (Consola).
+* **Fase Propuesta (Futuro):** C# Windows Forms (GUI) y Microsoft SQL Server (Base de Datos).
 
-1. **Clonar o Descargar:**
-   ```bash
-   git clone [https://github.com/ANDREIAJARJURY/andreiaJarjury.git](https://github.com/ANDREIAJARJURY/andreiaJarjury.git)
-Abrir en Visual Studio:
+## Documentación Técnica
+Toda la planificación del salto a la versión gráfica está en la carpeta `/docs/`:
+1. [Diseño del Juego](docs/diseno-del-juego.md)
+2. [Arquitectura Actual](docs/arquitectura-actual.md)
+3. [Arquitectura Propuesta](docs/arquitectura-propuesta.md)
+4. [Modelo de Datos](docs/modelo-de-datos-propuesto.md)
+5. [Análisis Técnico](docs/analisis-tecnico.md)
 
-Abre la carpeta en Visual Studio Community.
-
-Selecciona el archivo de solución .sln o la carpeta del proyecto C#.
-
-Compilar y Ejecutar:
-
-Presiona F5 o haz clic en el botón Iniciar / Run en Visual Studio.
-
-Utiliza el menú numérico en la consola para navegar por las opciones del juego.
+## Cómo ejecutar la versión actual
+1. Clonar el repositorio.
+2. Abrir la solución en Visual Studio.
+3. Compilar y ejecutar el proyecto (F5) en modo consola.
