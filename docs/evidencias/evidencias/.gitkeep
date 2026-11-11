@@ -1,8 +1,9 @@
 docs/
- ├── diseno-del-juego.md
+ ├── Nexus-manual-tecnico.pdf
+ ├── analisis-tecnico.md
  ├── arquitectura-actual.md
  ├── arquitectura-propuesta.md
- ├── modelo-de-datos-propuesto.md
- ├── analisis-tecnico.md
+ ├── diseño-del-juego.md
+ ├── modelo-de-datos-propuesto
  └── evidencias/
                └── [bocetos y diagramas]
